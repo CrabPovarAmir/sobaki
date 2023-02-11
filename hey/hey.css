@@ -1,0 +1,29 @@
+@font-face{
+    font-family:"loki" ;
+    
+ }
+body{
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613061578_121-p-oranzhevii-fon-s-sobakoi-169.jpg);
+	background-size: cover;background-attachment: fixed;}
+	header{
+		text-align: center;color: #FFFFFF;font-family:cursive;background-color: black;
+	}
+	.loki{ scr:"C:\Users\kamba\OneDrive\Рабочий стол\Новая папка\hey\20832.ttf" }
+	h2{background-color:#ffff66 ;color: #000000;font-family: cursive; width:30% }
+	img{width: 25%}
+	h1{text-align: center;color: #FFFFFF;font-family:cursive;background-color: black;}
+	li{list-style-type: none;padding: 10px;font-family: cursive;font-size: 40px;color: white;}
+	a{text-decoration: none;color: black;}
+	nav{display:flex; justify-content: center}
+    li:hover{background-color: black; color: white;}
+    a:hover{color: white;}
+    .par{display: flex;flex-direction: row;}
+    .pat{width: 70%}
+    .pad{width: 30%}
+    .paf{width: 100%}
+    @media only screen and (max-width:500px){
+    	img{width: 50%}
+    	li{font-size: 20px}
+    	h2{font-size: 15px}
+    	h1{font-size: 20px}
+    }
